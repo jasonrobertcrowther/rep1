@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  
+  
+    
+  
+
+  <title>Getting started - Part 1 - the thought process | Dan Crowther</title>
+
+  
+  <meta name="author" content="Dan">
+  
+  <meta name="description" content="I thought it was time to setup some form of central repository or portfolio of my work when I started visiting university open days and wanted to be able to showcase my work so far. This article aims to outline the initial steps take to get off the gound.
+Currently the content I have created exists in a number of places. Some exists on YouTube in private channels and some exists at College in private server locations.">
+  <meta name="keywords" content="blog,developer,personal">
+
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Getting started - Part 1 - the thought process"/>
+<meta name="twitter:description" content="I thought it was time to setup some form of central repository or portfolio of my work when I started visiting university open days and wanted to be able to showcase my work so far. This article aims to outline the initial steps take to get off the gound.
+Currently the content I have created exists in a number of places. Some exists on YouTube in private channels and some exists at College in private server locations."/>
+
+  <meta property="og:title" content="Getting started - Part 1 - the thought process" />
+<meta property="og:description" content="I thought it was time to setup some form of central repository or portfolio of my work when I started visiting university open days and wanted to be able to showcase my work so far. This article aims to outline the initial steps take to get off the gound.
+Currently the content I have created exists in a number of places. Some exists on YouTube in private channels and some exists at College in private server locations." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/gettingstarted_part1/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-11-20T00:00:00+00:00" />
+<meta property="article:modified_time" content="2022-11-20T00:00:00+00:00" />
+
+
+
+  <link rel="stylesheet" href="/css/bootstrap.min.css"  crossorigin="anonymous">
+  
+  <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"
+    type="text/css">
+
+  
+  
+  <link rel="stylesheet" href="/sass/main.css">
+
+  
+  <link rel="stylesheet" href="/zoomjs/zoom.min.css">
+
+  
+
+  <script src=/js/lazysizes.min.js></script>
+
+  
+  
+
+  
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="shortcut icon" href="/favicon.png" type="image/x-icon">
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/logo.svg" sizes="any" type="image/svg+xml" />
+
+
+</head>
+
+
+
+<body ontouchstart="">
+
+  
+  
+  
+
+  
+
+  
+  
+
+
+
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top invert">
+  <div class="container-fluid">
+    
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="">Dan Crowther</a>
+    </div>
+    
+    <div id="huxblog_navbar">
+      <div class="navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          
+          <li><a href="/" title="Home">Home</a></li>
+          
+          <li><a href="/series/video/" title="My Portfolio">My Portfolio</a></li>
+          
+          <li><a href="/archive/" title="Archive">Archive</a></li>
+          
+          <li><a href="/about/" title="About">About</a></li>
+          
+
+          <li class="search-icon">
+            <a href="javascript:void(0)">
+              <i class="fa fa-search"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    
+  </div>
+  
+</nav>
+<script>
+  
+  
+  
+  var $body = document.body;
+  var $toggle = document.querySelector(".navbar-toggle");
+  var $navbar = document.querySelector("#huxblog_navbar");
+  var $collapse = document.querySelector(".navbar-collapse");
+
+  var __HuxNav__ = {
+    close: function () {
+      $navbar.className = " ";
+      
+      setTimeout(function () {
+        
+        if ($navbar.className.indexOf("in") < 0) {
+          $collapse.style.height = "0px";
+        }
+      }, 400);
+    },
+    open: function () {
+      $collapse.style.height = "auto";
+      $navbar.className += " in";
+    },
+  };
+
+  
+  $toggle.addEventListener("click", function (e) {
+    if ($navbar.className.indexOf("in") > 0) {
+      __HuxNav__.close();
+    } else {
+      __HuxNav__.open();
+    }
+  });
+
+  
+
+  document.addEventListener("click", function (e) {
+    if (e.target == $toggle) return;
+    if (e.target.className == "icon-bar") return;
+    __HuxNav__.close();
+  });
+</script>
+  
+<div class="search-page">
+  <div class="search-icon-close-container">
+    <span class="search-icon-close">
+      <i class="fa fa-chevron-down"></i>
+    </span>
+  </div>
+  <div class="search-main container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <form></form>
+        <input type="text" id="search-input" placeholder="Please just type the words you want to search for...">
+        </form>
+        <div id="search-results" class="mini-post-list"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+  
+
+
+<style type="text/css">
+  header.intro-header {
+    position: relative;
+    background-image: url('');
+  }
+</style>
+
+<header class="intro-header style-text">
+
+  <div class="header-mask"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="post-heading">
+          <div class="tags">
+            
+            <a class="tag" href="/tags/setup/" title="Setup">Setup</a>
+            
+            <a class="tag" href="/tags/website/" title="Website">Website</a>
+            
+            <a class="tag" href="/tags/jamstack/" title="Jamstack">Jamstack</a>
+            
+            <a class="tag" href="/tags/cloudflare/" title="Cloudflare">Cloudflare</a>
+            
+            <a class="tag" href="/tags/static/" title="Static">Static</a>
+            
+          </div>
+          <h1>Getting started - Part 1 - the thought process</h1>
+          <h2 class="subheading"></h2>
+          <span class="meta">
+            Posted by  Dan 
+            on Sun, Nov 20, 2022
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+  
+
+
+<article>
+  <div class="container">
+    <div class="row">
+
+      
+      <div class="
+              col-lg-8 col-lg-offset-2
+              col-md-10 col-md-offset-1
+              post-container">
+        <p>I thought it was time to setup some form of central repository or portfolio of my work when I started visiting university open days and wanted to be able to showcase my work so far. This article aims to outline the initial steps take to get off the gound.</p>
+<p>Currently the content I have created exists in a number of places. Some exists on YouTube in private channels and some exists at College in private server locations. What I want to be able to do is show these videos and the ideas behind them to the viewer</p>
+<p>While there are lots of content management solutions out there for websites being a &ldquo;poor student&rdquo; I decided that challenge number 1 should be how to create a website as cheaply as possible. Challenge number 2 would be to take the &ldquo;empty webspace&rdquo; and create a theme or template so I could easily upload my content. Challenge number 3 would be to add layers of security to ensure I could have non public
+access if ever required</p>
+<p>So in reality - lots of challenges! The first thing to do is find some form of website hosting. That may be a platform that has prebuilt templates and themes or simple empty space that I then need to work more on creating the content and look and feel. While there are a number of &ldquo;free&rdquo; platforms out there I didn&rsquo;t want their identity to be part of my portfolio so I decided I would need to start from a blank sheet - which feels more in line with the whole &ldquo;creativity&rdquo; idea which is fundamental to what I do.</p>
+<p>While looking for something that matched this idea and also with the idea of being cheap or certainly affordable and also secure (I know - I want everything for nothing) I stumbled upon Cloudflare (<a href="/https:/www.cloudflare.com" target="_blank">https://www.cloudflare.com</a>). This is a essentially a Content Delivery Network (CDN) but their tagline &ldquo;Cloudflare is a global network designed to make everything you connect to the Internet secure, private, fast, and reliable.&rdquo; works for me.</p>
+<p>More importantly there is a free fier that allows me to get started at no cost and see whether it suits my requirements.</p>
+<p>I decided at this point the primary aim was to build the framework so I could add my content and then add a domain name later</p>
+<p>After digging a bit deeper and without boring the reader with the details I found that Cloudflare Pages is a Jamstack platform (<a href="/https:/jamstack.org/what-is-jamstack/" target="_blank">https://jamstack.org/what-is-jamstack/</a> ) that can be used to develop websites. There are two key concepts here:</p>
+<ul>
+<li>
+<p><em>Jamstack is an architecture designed to make the web faster, more secure, and easier to scale. It builds on many of the tools and workflows which developers love, and which bring maximum productivity.</em></p>
+</li>
+<li>
+<p><em>With Jamstack, the entire front end is prebuilt into highly optimized static pages and assets during a build process. This process of pre-rendering results in sites which can be served directly from a CDN,
+reducing the cost, complexity and risk, of dynamic servers as critical infrastructure.</em></p>
+</li>
+</ul>
+<p>My thinking here is that with video content becoming more and more dynamic and being a modern technology then a number of key points are met with this approach - specifically <strong>reducing the cost</strong> - <strong>reducing the risk</strong> and <strong>a worldwide Content Delivery Network</strong></p>
+<p>If I can deploy my website on Cloudflare with the free tier then this gives me the start I need</p>
+<p>One of the concepts I noticed was that what was being repeatedly mentioned was <strong>static websites</strong> - surely this conflicts with the idea of me being able to regulraly upload content - ie - more dynamic. However after reading a bit more deeply it became evident that actually my content is the videos that I create. Once created I just want to showcase them - so actually a fairly static website would suit my purposes as long as I could add content as I went along - almost more of a <strong>blog</strong> type website.</p>
+<p>Wow do I create this website. The Cloudflare documentation provided the answer to this - a Jamstack based tool would allow me to create a website framework and then then just add my content as I went along. So what tool to use - it turns out there are many - all with great names like Gatsby, Hugo, Jekyll and many more. Since I know none of them a google search was my friend and Hugo was selected based on the following:</p>
+<ul>
+<li><em>Hugo is a static site generator written in Go. It is optimized for speed, easy use and configurability. Hugo takes a directory with content and templates and renders them into a full html website.</em></li>
+</ul>
+<p>So - Cloudflare plus Hugo plus my content - thats going to be my platform - all I now need to do is work out how to do it!!!</p>
+
+
+        <hr style="visibility: hidden;" />
+        <ul class="pager">
+          
+          <li class="previous">
+            <a href="/posts/gettingstarted_part2/" data-toggle="tooltip" data-placement="top" title="Getting started - Part 2 - the practicalities">
+              Next<br>
+              <span>Getting started - Part 2 - the practicalities</span>
+            </a>
+          </li>
+          
+          
+          <li class="next">
+            <a href="/posts/welcome/" data-toggle="tooltip" data-placement="top" title="Welcome to my website - why is it here?">
+              Previous<br>
+              <span>Welcome to my website - why is it here?</span>
+            </a>
+          </li>
+          
+        </ul>
+        <hr style="visibility: hidden;" />
+
+        
+        
+
+
+
+
+
+
+      </div>
+
+      
+      
+      
+      
+      <div class="
+              col-lg-8 col-lg-offset-2
+              col-md-10 col-md-offset-1
+              sidebar-container">
+
+        
+        
+        <section>
+  
+  
+  <hr class="hidden-sm hidden-xs">
+  
+  <h5>FEATURED TAGS</h5>
+  <div class="tags">
+    
+    <a href="/tags/about/">About</a>
+    
+    <a href="/tags/cloudflare/">Cloudflare</a>
+    
+    <a href="/tags/dan/">Dan</a>
+    
+    <a href="/tags/highlights/">highlights</a>
+    
+    <a href="/tags/jamstack/">Jamstack</a>
+    
+    <a href="/tags/livestream/">livestream</a>
+    
+    <a href="/tags/portfolio/">portfolio</a>
+    
+    <a href="/tags/promotional/">promotional</a>
+    
+    <a href="/tags/setup/">Setup</a>
+    
+    <a href="/tags/static/">Static</a>
+    
+    <a href="/tags/website/">Website</a>
+    
+    <a href="/tags/whoami/">Whoami</a>
+    
+    <a href="/tags/youtube/">Youtube</a>
+    
+  </div>
+</section>
+
+        
+        
+
+<hr>
+<h5>FRIENDS</h5>
+<ul class="list-inline">
+  
+  <li><a href="" target="_blank"></a></li>
+  
+  <li><a href="" target="_blank"></a></li>
+  
+</ul>
+
+      </div>
+    </div>
+  </div>
+</article>
+
+
+
+  
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        
+        
+
+
+<ul class="list-inline text-center">
+
+  
+  
+  <li>
+    <a href="https://twitter.com/johndoe">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  
+  
+  
+  
+  <li>
+    <a target="_blank" href="https://www.facebook.com/johndoe">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  
+  
+  
+  <li>
+    <a target="_blank" href="https://www.linkedin.com/in/johndoe">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  
+</ul>
+        <p class="copyright text-muted">
+          Copyright &copy; Dan Crowther 2023  
+          <br>
+          Powered by <a href="https://gohugo.io">Hugo</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src=/js/jquery.min.js></script>
+<script src=/js/bootstrap.min.js crossorigin="anonymous"></script>
+
+
+
+<script src="/js/hux-blog.min.c4ea77041cd3edbfc8b2622cd887a9a5d8760a4162d14489e36d2a3fa4c90172.js"></script>
+
+
+<script src=/js/simple-jekyll-search.min.js></script>
+
+
+<script src="/js/search.min.53bce5da475b4d362500e5ce5dddfa22e20e1b9018777411d2020b4b839c9310.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="/zoomjs/zoom.min.js"></script>
+
+</body>
+
+</html>

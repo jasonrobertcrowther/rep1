@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About on Dan Crowther</title>
+    <link>/tags/about/</link>
+    <description>Recent content in About on Dan Crowther</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 21 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="/tags/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About me</title>
+      <link>/about/</link>
+      <pubDate>Mon, 21 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>Hi - my name is Dan Crowther. At the point of writing this article I am 17 years old and living in Abingdon which is in Oxfordshire
+I have two passions in life - basketball and video both of which consume my every waking moment.
+Currently I am studying Video Editing at Abingdon &amp;amp; Witney College and am in the second year hoping to go to University in 2023 to study TV Production.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Setup on Dan Crowther</title>
+    <link>/tags/setup/</link>
+    <description>Recent content in Setup on Dan Crowther</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 21 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="/tags/setup/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Welcome to my website - why is it here?</title>
+      <link>/posts/welcome/</link>
+      <pubDate>Mon, 21 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/welcome/</guid>
+      <description>Welcome to my website.
+The aim of this website is to try and showcase who I am and where I am going with my video projects both personally and at College so you can get a feel of my journey with video
+I want to share with people the technology I used to create this platform that will enable me to share my portfolio as a showcase of my work in video</description>
+    </item>
+    
+    <item>
+      <title>Getting started - Part 1 - the thought process</title>
+      <link>/posts/gettingstarted_part1/</link>
+      <pubDate>Sun, 20 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/gettingstarted_part1/</guid>
+      <description>I thought it was time to setup some form of central repository or portfolio of my work when I started visiting university open days and wanted to be able to showcase my work so far. This article aims to outline the initial steps take to get off the gound.
+Currently the content I have created exists in a number of places. Some exists on YouTube in private channels and some exists at College in private server locations.</description>
+    </item>
+    
+    <item>
+      <title>Getting started - Part 2 - the practicalities</title>
+      <link>/posts/gettingstarted_part2/</link>
+      <pubDate>Sat, 19 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/gettingstarted_part2/</guid>
+      <description>After a bit of a crach course in googling how to do things its time to join all the dots&amp;hellip;
+Hugo Installing Hugo was fairly painless and it has some great features like the ability to preview my changes on the fly.
+I then found a simple theme from the Hugo themes library https://jamstackthemes.dev/theme/hugo-theme-cleanwhite/ which should allow me to use a simple blog structure and menu items
+I did some basic customisation of the theme so Hugo is ready to go</description>
+    </item>
+    
+    <item>
+      <title>Adding the actual content - the nitty gritty</title>
+      <link>/posts/addingcontent/</link>
+      <pubDate>Sat, 19 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/addingcontent/</guid>
+      <description>In some respects this was the easiest part. Early on I needed to decide the structure and it made sense to keep it fairly simple.
+The default landing page will have my &amp;ldquo;blog posts&amp;rdquo; that are a history of what I am doing or have done.
+There will be an archive of all my posts by date so a historical timeline will be seen over time
+There will be the main portfolio section that can be accessed from the main home page</description>
+    </item>
+    
+  </channel>
+</rss>

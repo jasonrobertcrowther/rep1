@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Dan Crowther</title>
+    <link>/posts/</link>
+    <description>Recent content in Posts on Dan Crowther</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 21 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Welcome to my website - why is it here?</title>
+      <link>/posts/welcome/</link>
+      <pubDate>Mon, 21 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/welcome/</guid>
+      <description>Welcome to my website.
+The aim of this website is to try and showcase who I am and where I am going with my video projects both personally and at College so you can get a feel of my journey with video
+I want to share with people the technology I used to create this platform that will enable me to share my portfolio as a showcase of my work in video</description>
+    </item>
+    
+    <item>
+      <title>Getting started - Part 1 - the thought process</title>
+      <link>/posts/gettingstarted_part1/</link>
+      <pubDate>Sun, 20 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/gettingstarted_part1/</guid>
+      <description>I thought it was time to setup some form of central repository or portfolio of my work when I started visiting university open days and wanted to be able to showcase my work so far. This article aims to outline the initial steps take to get off the gound.
+Currently the content I have created exists in a number of places. Some exists on YouTube in private channels and some exists at College in private server locations.</description>
+    </item>
+    
+    <item>
+      <title>Getting started - Part 2 - the practicalities</title>
+      <link>/posts/gettingstarted_part2/</link>
+      <pubDate>Sat, 19 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/gettingstarted_part2/</guid>
+      <description>After a bit of a crach course in googling how to do things its time to join all the dots&amp;hellip;
+Hugo Installing Hugo was fairly painless and it has some great features like the ability to preview my changes on the fly.
+I then found a simple theme from the Hugo themes library https://jamstackthemes.dev/theme/hugo-theme-cleanwhite/ which should allow me to use a simple blog structure and menu items
+I did some basic customisation of the theme so Hugo is ready to go</description>
+    </item>
+    
+    <item>
+      <title>Adding the actual content - the nitty gritty</title>
+      <link>/posts/addingcontent/</link>
+      <pubDate>Sat, 19 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/addingcontent/</guid>
+      <description>In some respects this was the easiest part. Early on I needed to decide the structure and it made sense to keep it fairly simple.
+The default landing page will have my &amp;ldquo;blog posts&amp;rdquo; that are a history of what I am doing or have done.
+There will be an archive of all my posts by date so a historical timeline will be seen over time
+There will be the main portfolio section that can be accessed from the main home page</description>
+    </item>
+    
+    <item>
+      <title>My Portfolio - my video content</title>
+      <link>/posts/myportfolio/</link>
+      <pubDate>Sat, 19 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/myportfolio/</guid>
+      <description>Ultimately the aim of this website is to share some of the videos and content that I have created - so here it is&amp;hellip;.
+My Portfolio
+In future you can simply select My Portfolio from the menu in the top right hand corner</description>
+    </item>
+    
+    <item>
+      <title>Livestream test</title>
+      <link>/posts/portfolio_livestreamtest/</link>
+      <pubDate>Sat, 19 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/portfolio_livestreamtest/</guid>
+      <description>This was an experiment in live streaming and person following
+We have an Aver tracking camera that can track people or objects. What we wanted to do was evaluate the effectiveness of this when livestreaming a basketball game
+We took the Aver Camera on a tripod, an IPad Mini, a mini network switch and wifi access point and paired all of this up with a mobile hotspot on a phone</description>
+    </item>
+    
+    <item>
+      <title>Basketball end of season highlights</title>
+      <link>/posts/portfolio_endofseason/</link>
+      <pubDate>Sat, 19 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/portfolio_endofseason/</guid>
+      <description>This was a video that I edited and put together for a basketball end of season highlights celebration
+Every game that this particular team play is recorded as a simple video file and then I took all of the best moments from these and added an audio track and this was presented at the club awards and presentation night</description>
+    </item>
+    
+    <item>
+      <title>Basketball promotional video</title>
+      <link>/posts/portfolio_foundation/</link>
+      <pubDate>Sat, 19 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/portfolio_foundation/</guid>
+      <description>I am a player at Abingdon Eagles Basketball club, however I am also a coach and official.
+One of my honours is to be asked to coach for a Community Session setup by the Abingdon Eagles Foundation (https://abingdoneagles.foundation). Every Monday I am an assistant coach for Walking Basketball where people are returning from illness or simply want to play basketball or need some community around them.
+The Foundation is funded via external grants that have to be appled for so we decided to create a promotional video showing just what we do.</description>
+    </item>
+    
+  </channel>
+</rss>

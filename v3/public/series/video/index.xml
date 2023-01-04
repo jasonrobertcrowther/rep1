@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My Portfolio on Dan Crowther</title>
+    <link>/series/video/</link>
+    <description>Recent content in My Portfolio on Dan Crowther</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 19 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="/series/video/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Livestream test</title>
+      <link>/posts/portfolio_livestreamtest/</link>
+      <pubDate>Sat, 19 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/portfolio_livestreamtest/</guid>
+      <description>This was an experiment in live streaming and person following
+We have an Aver tracking camera that can track people or objects. What we wanted to do was evaluate the effectiveness of this when livestreaming a basketball game
+We took the Aver Camera on a tripod, an IPad Mini, a mini network switch and wifi access point and paired all of this up with a mobile hotspot on a phone</description>
+    </item>
+    
+    <item>
+      <title>Basketball end of season highlights</title>
+      <link>/posts/portfolio_endofseason/</link>
+      <pubDate>Sat, 19 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/portfolio_endofseason/</guid>
+      <description>This was a video that I edited and put together for a basketball end of season highlights celebration
+Every game that this particular team play is recorded as a simple video file and then I took all of the best moments from these and added an audio track and this was presented at the club awards and presentation night</description>
+    </item>
+    
+    <item>
+      <title>Basketball promotional video</title>
+      <link>/posts/portfolio_foundation/</link>
+      <pubDate>Sat, 19 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/portfolio_foundation/</guid>
+      <description>I am a player at Abingdon Eagles Basketball club, however I am also a coach and official.
+One of my honours is to be asked to coach for a Community Session setup by the Abingdon Eagles Foundation (https://abingdoneagles.foundation). Every Monday I am an assistant coach for Walking Basketball where people are returning from illness or simply want to play basketball or need some community around them.
+The Foundation is funded via external grants that have to be appled for so we decided to create a promotional video showing just what we do.</description>
+    </item>
+    
+  </channel>
+</rss>
