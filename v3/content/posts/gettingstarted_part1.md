@@ -13,7 +13,7 @@ tags:
 author: "Dan"
 showthedate: false
 weight: 2
-
+series : ["Infra"]
 ---
 
 I thought it was time to setup some form of central repository or portfolio of my work when I started visiting university open days and wanted to be able to showcase my work so far. This article aims to outline the initial steps take to get off the gound.

@@ -1,6 +1,7 @@
 ---
 layout:     post
 date: 2022-11-19
+draft: true
 #description: "the nitty gritty"
 #featured_image: "https://source.unsplash.com/aWrkBDjpxQ8"
 title: "Adding the actual content - the nitty gritty"
@@ -12,7 +13,7 @@ tags:
     - Static
 author: "Dan"
 showthedate: false
-weight: 4
+weight: 5
 ---
 
 In some respects this was the easiest part. Early on I needed to decide the structure and it made sense to keep it fairly simple. 

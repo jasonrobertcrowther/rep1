@@ -63,9 +63,9 @@ name = "About"
 url = "/about/"
 weight = 50
 #[[menu.main]]
-#identifier = "github"
-#name = "Github"
-#url = "https://github.com/roninro/hugo-theme-puppet/"
+#identifier = "infra"
+#name = "infra"
+#url = "/series/infra/"
 #weight = 100
 
 
@@ -74,8 +74,8 @@ author = "Dan"
 description = "My Portfolio"
 keywords = "blog,developer,personal"
 #img_home = "img/home-bg.jpg"
-img_home = "https://source.unsplash.com/O2-EZNGZIyk"
-
+#img_home = "https://source.unsplash.com/O2-EZNGZIyk"
+img_home = "img/image_screens.avif"
 
 img_404 = "img/404-bg.jpg"
 
@@ -86,17 +86,21 @@ custom_css = [] # ["css/custom.css"]  Add your file to assets folder  [assets/cs
 
 [params.sidebar]
 enable = true
-avatar = "https://source.unsplash.com/ZdOsQiwp0Ss"
+#avatar = "https://source.unsplash.com/ZdOsQiwp0Ss"
+avatar = "/img/image_behind.avif"
 bio = "My name is Dan Crowther - I play basketball and I record and edit videos"
 
 [params.social]
 #rss_enable = true
-twitter = "johndoe"
-facebook = "johndoe"
+twitter = "dancrowther"
+facebook = "dancrowther"
 #zhihu = "johndoe"
-#weibo = "johndoe"
-#github = "johndoe"
-linkedin = "johndoe"
+#weibo = "dancrowther"
+#github = "dancrowther"
+linkedin = "dancrowther"
+instagram = "dancrowther"
+email = "dan@thecrowtherfamily.com"
+youtube = "dancrowther"
 
 [[params.friends]]
 #name = "John Doe"

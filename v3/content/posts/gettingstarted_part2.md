@@ -13,9 +13,10 @@ tags:
 author: "Dan"
 showthedate: false
 weight: 3
+series : ["Infra"]
 ---
 
-After a bit of a crach course in googling how to do things its time to join all the dots...
+After a bit of a crash course in googling how to do things its time to join all the dots...
 
 Hugo
 Installing Hugo was fairly painless and it has some great features like the ability to preview my changes on the fly.
