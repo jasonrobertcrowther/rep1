@@ -14,8 +14,8 @@
       
       <guid>/posts/portfolio_livestreamtest/</guid>
       <description>This was an experiment in live streaming and person following
-We have an Aver tracking camera that can track people or objects. What we wanted to do was evaluate the effectiveness of this when livestreaming a basketball game
-We took the Aver Camera on a tripod, an IPad Mini, a mini network switch and wifi access point and paired all of this up with a mobile hotspot on a phone</description>
+My instant thought when doing a livestream is OBS and a laptop and a camera feed. While this can work very well we were looking at how we could stream a live event easily with minimal equipment and also minimal space (and potentially minimal operator skills set)
+We found an Aver tracking camera that can track people or objects. What we wanted to do was evaluate the effectiveness of this when livestreaming a basketball game.</description>
     </item>
     
     <item>
@@ -37,6 +37,27 @@ Every game that this particular team play is recorded as a simple video file and
       <description>I am a player at Abingdon Eagles Basketball club, however I am also a coach and official.
 One of my honours is to be asked to coach for a Community Session setup by the Abingdon Eagles Foundation (https://abingdoneagles.foundation). Every Monday I am an assistant coach for Walking Basketball where people are returning from illness or simply want to play basketball or need some community around them.
 The Foundation is funded via external grants that have to be appled for so we decided to create a promotional video showing just what we do.</description>
+    </item>
+    
+    <item>
+      <title>Basketball leavers video</title>
+      <link>/posts/portfolio_leavers/</link>
+      <pubDate>Sat, 19 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/portfolio_leavers/</guid>
+      <description>This was a video that I edited and put together for a basketball leavers celebration
+The concept behind this was to create an emotional yet fun interview type video with all the players in the same age group that all leaving the club going onto university or jobs.
+This was filmed in secret so that the coaches to which this is dedicated had no idea of the content.
+This was a fun project because I got to write a script of questions and edit together some of the clips out of order</description>
+    </item>
+    
+    <item>
+      <title>Workflow</title>
+      <link>/posts/portfolio_workflow/</link>
+      <pubDate>Sat, 19 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/portfolio_workflow/</guid>
+      <description> pre-production - planning/mapping out and script What are the objectives Who is the video for what is the key message what is the strategy brief script storyboard location equipment production - video is shot lighting setup the camera direct the talent post-production editing music effects distribution </description>
     </item>
     
   </channel>

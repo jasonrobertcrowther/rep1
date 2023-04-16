@@ -34,22 +34,22 @@ Currently the content I have created exists in a number of places. Some exists o
       <pubDate>Sat, 19 Nov 2022 00:00:00 +0000</pubDate>
       
       <guid>/posts/gettingstarted_part2/</guid>
-      <description>After a bit of a crach course in googling how to do things its time to join all the dots&amp;hellip;
+      <description>After a bit of a crash course in googling how to do things its time to join all the dots&amp;hellip;
 Hugo Installing Hugo was fairly painless and it has some great features like the ability to preview my changes on the fly.
 I then found a simple theme from the Hugo themes library https://jamstackthemes.dev/theme/hugo-theme-cleanwhite/ which should allow me to use a simple blog structure and menu items
 I did some basic customisation of the theme so Hugo is ready to go</description>
     </item>
     
     <item>
-      <title>Adding the actual content - the nitty gritty</title>
-      <link>/posts/addingcontent/</link>
+      <title>Getting started - Part 3 - the content</title>
+      <link>/posts/gettingstarted_part3/</link>
       <pubDate>Sat, 19 Nov 2022 00:00:00 +0000</pubDate>
       
-      <guid>/posts/addingcontent/</guid>
-      <description>In some respects this was the easiest part. Early on I needed to decide the structure and it made sense to keep it fairly simple.
-The default landing page will have my &amp;ldquo;blog posts&amp;rdquo; that are a history of what I am doing or have done.
-There will be an archive of all my posts by date so a historical timeline will be seen over time
-There will be the main portfolio section that can be accessed from the main home page</description>
+      <guid>/posts/gettingstarted_part3/</guid>
+      <description>Sometimes the content is the most difficult thing.
+I have the infrastucture and the methodology just need to put some structure to it and a common theme.
+Luckily Hugo has a great repository of prebuilt themes so I picked one that gave me the option for a blog type layout with the option of adding menus for various sections.
+I have kept the layout quite simply deliberately. The home page gives all my posts in an order in which I want the content to be read (if the reader wants to read all the content).</description>
     </item>
     
   </channel>

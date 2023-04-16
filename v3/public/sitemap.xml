@@ -11,7 +11,7 @@
     <loc>/posts/gettingstarted_part2/</loc>
     <lastmod>2022-11-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/addingcontent/</loc>
+    <loc>/posts/gettingstarted_part3/</loc>
     <lastmod>2022-11-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/posts/myportfolio/</loc>
@@ -24,6 +24,12 @@
     <lastmod>2022-11-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/posts/portfolio_foundation/</loc>
+    <lastmod>2022-11-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/portfolio_leavers/</loc>
+    <lastmod>2022-11-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/portfolio_workflow/</loc>
     <lastmod>2022-11-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/</loc>
@@ -62,6 +68,15 @@
     <loc>/tags/whoami/</loc>
     <lastmod>2022-11-21T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/series/infra/</loc>
+    <lastmod>2022-11-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/series/</loc>
+    <lastmod>2022-11-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/basketball/</loc>
+    <lastmod>2022-11-19T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/tags/highlights/</loc>
     <lastmod>2022-11-19T00:00:00+00:00</lastmod>
   </url><url>
@@ -75,9 +90,6 @@
     <lastmod>2022-11-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/promotional/</loc>
-    <lastmod>2022-11-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/series/</loc>
     <lastmod>2022-11-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/youtube/</loc>

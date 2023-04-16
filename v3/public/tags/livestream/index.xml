@@ -14,8 +14,8 @@
       
       <guid>/posts/portfolio_livestreamtest/</guid>
       <description>This was an experiment in live streaming and person following
-We have an Aver tracking camera that can track people or objects. What we wanted to do was evaluate the effectiveness of this when livestreaming a basketball game
-We took the Aver Camera on a tripod, an IPad Mini, a mini network switch and wifi access point and paired all of this up with a mobile hotspot on a phone</description>
+My instant thought when doing a livestream is OBS and a laptop and a camera feed. While this can work very well we were looking at how we could stream a live event easily with minimal equipment and also minimal space (and potentially minimal operator skills set)
+We found an Aver tracking camera that can track people or objects. What we wanted to do was evaluate the effectiveness of this when livestreaming a basketball game.</description>
     </item>
     
   </channel>
